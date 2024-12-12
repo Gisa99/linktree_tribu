@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-text-decoration: double;
+          text-decoration: double;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7E3D8E;
+}
+body .logo {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .logo img {
+  width: 250px;
+}
+body .logo h1 {
+  font-family: "Poppins", serif;
+  color: white;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+body .opcoes {
+  width: 25%;
+  margin-bottom: 2rem;
+}
+@media (min-width: 0) and (max-width: 700px) {
+  body .opcoes {
+    width: 90%;
+  }
+}
+body .opcoes .opcoes_lista {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+body .opcoes .opcoes_lista a {
+  background-color: #560e54;
+  width: 100%;
+  display: flex;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-family: "Poppins", serif;
+  color: white;
+  transition: 0.3s ease-in;
+}
+body .opcoes .opcoes_lista a:hover {
+  background-color: #380c36;
+}
+body .opcoes .opcoes_lista a li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+body .opcoes .opcoes_lista .esconder {
+  display: none;
+}/*# sourceMappingURL=estilos.css.map */
