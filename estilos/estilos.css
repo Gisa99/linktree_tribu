@@ -29,6 +29,12 @@ body .logo h1 {
   color: white;
   margin-top: -1rem;
   margin-bottom: 1rem;
+  text-align: center;
+}
+@media (min-width: 0) and (max-width: 700px) {
+  body .logo h1 {
+    text-align: center;
+  }
 }
 body .opcoes {
   width: 25%;
